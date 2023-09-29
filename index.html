@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADITYA FITNESS</title> 
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+    <style>
+        body {
+            font-family: 'Baloo Bhai';font-size: 22px;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url(images/bn.png.jpg);
+        }
+
+        .left {
+            display: inline-block;
+            
+            position: absolute;
+            left: 34px;
+            top: 20px auto;
+        }
+
+        /* isko  image jagah mai set karna k liya use kiya hai  */
+        .left img {
+            width: 85px;
+        }
+
+        /* and isko aditya fitness ko center mai  */
+        .left {
+            text-align: center;
+            font-size: 25px;
+            line-height: 20px;
+        }
+
+        .middle {
+            display: block;
+            margin: 20px auto;
+            width: 53%;
+            
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 13px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            color: grey;
+            text-decoration: underline;
+        }
+
+
+        .btn{
+            font-family: 'Baloo Bhai';font-size: 22px; 
+            margin: 0px 9px;
+            background-color:  black;
+            color: white;
+            padding: 14px 14px;
+            border: 2px solid;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btn:hover{
+            background-color: rgb(111, 101, 101);
+            color: black;
+        }
+
+
+        .container{
+            border: solid 2px orange;
+            padding: 75px  ;
+            margin: 104px 25px;
+            width:39%;
+            border-radius: 25px;
+        }
+        .but{
+            cursor:  pointer;
+            display: block;
+            margin: 14px auto;
+            font-family: 'Baloo Bhai';font-size: 22px; 
+        }
+
+        .but:hover{
+            background-color: red;
+            color: black;
+        }
+
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 574px;
+            padding: 6px;
+            margin: 10px auto;
+            border: 2px solid black;
+            border-radius:12px  ;
+            font-size: 20px;
+            font-family: 'Baloo Bhai';font-size: 22px; 
+        }
+
+       .h2font{
+           text-align: center;
+       }
+
+    
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="images/gym.png" alt="">
+            <div>aditya fitness</div>
+        </div>
+
+        <!-- middle for navigation -->
+
+        <div class="middle">
+
+            <ul class="navbar">
+                <li><a href="" class="active ">home</a></li>
+                <li><a href="">about us </a> </li>
+                <li><a href="">fitness calculator</a> </li>
+                <li><a href="">contact us </a> </li>
+            </ul>
+
+        </div>
+
+        <!-- right box for boxes -->
+
+        <div class="right">
+            <button class="btn">call us now </button>
+            <button class="btn">email us now </button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 class="h2font">join the best gym of pipariya now </h2>
+        <form action="nonphp.gt">
+            <div class="form-group">
+                <input type="text" placeholder="enter the name ">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="age  ">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder=" address ">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="contact number  ">
+            </div>
+            <button class="but">submit form</button>
+
+           
+        </form>
+    </div>
+
+    
+
+</body>
+
+</html>
